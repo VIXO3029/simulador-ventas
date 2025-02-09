@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Ventas Mensuales</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Simulador de Ventas Mensuales</h1>
+        <form id="salesForm">
+            <label for="month">Selecciona un mes:</label>
+            <select id="month" name="month">
+                <option value="Enero">Enero</option>
+                <option value="Febrero">Febrero</option>
+                <option value="Marzo">Marzo</option>
+                <option value="Abril">Abril</option>
+                <option value="Mayo">Mayo</option>
+                <option value="Junio">Junio</option>
+                <option value="Julio">Julio</option>
+                <option value="Agosto">Agosto</option>
+                <option value="Septiembre">Septiembre</option>
+                <option value="Octubre">Octubre</option>
+                <option value="Noviembre">Noviembre</option>
+                <option value="Diciembre">Diciembre</option>
+            </select>
+            <label for="salesAmount">Ingresa el monto de ventas:</label>
+            <input type="number" id="salesAmount" name="salesAmount" required min="0">
+            <button type="submit">Agregar Ventas</button>
+        </form>
+
+        <div id="feedback-message" class="feedback-message"></div>
+
+        <div class="chart-controls">
+            <label for="chartType">Selecciona el tipo de gráfico:</label>
+            <select id="chartType" name="chartType">
+                <option value="bar">Barras</option>
+                <option value="line">Líneas</option>
+                <option value="pie">Pastel</option>
+            </select>
+            <button id="exportData" class="export-button">Exportar Datos</button>
+        </div>
+
+        <div class="chart-container">
+            <canvas id="salesChart" width="400" height="200"></canvas>
+        </div>
+
+        <button id="resetChart" class="reset-button">Resetear Gráfico</button>
+
+        <div class="stats-panel">
+            <h2>Estadísticas</h2>
+            <p><strong>Total de Ventas:</strong> <span id="totalSales">0</span></p>
+            <p><strong>Promedio de Ventas:</strong> <span id="averageSales">0</span></p>
+            <p><strong>Meses con Ventas > </strong><input type="number" id="filterAmount" min="0" placeholder="Filtrar por monto"></p>
+        </div>
+    </div>
+
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
