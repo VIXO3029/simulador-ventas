@@ -22,8 +22,6 @@ Esta aplicación web te permite simular y visualizar las ventas mensuales de una
 ├── index.html # Archivo principal HTML 🌐
 └── README.md # Documentación del proyecto (este archivo) 📄
 
-Copy
-
 ---
 
 ## 🛠️ Descripción de Archivos y Carpetas
@@ -50,14 +48,12 @@ Copy
 ## 🚀 Cómo Ejecutar el Proyecto
 
 1. **Clona el repositorio**:
-   ```bash
+   ```
    git clone https://github.com/tu-usuario/proyecto-simulador-ventas.git
 Abre el proyecto:
 
 Navega a la carpeta del proyecto:
 
-bash
-Copy
 cd proyecto-simulador-ventas
 Abre el archivo index.html en tu navegador.
 
@@ -94,8 +90,6 @@ Este proyecto está bajo la licencia MIT. Para más detalles, consulta el archiv
 
 ¡Gracias por usar el Simulador de Ventas Mensuales! 😊
 ¡Esperamos que te sea útil y divertido de usar! 🚀
-
-Copy
 
 ---
 
