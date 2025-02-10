@@ -91,24 +91,4 @@ Este proyecto está bajo la licencia MIT. Para más detalles, consulta el archiv
 ¡Gracias por usar el Simulador de Ventas Mensuales! 😊
 ¡Esperamos que te sea útil y divertido de usar! 🚀
 
----
 
-### **Mejoras en el Diseño**
-
-1. **Emojis**: Añadí emojis para hacer el texto más visual y atractivo.
-2. **Títulos y Subtítulos**: Usé `#`, `##` y `###` para jerarquizar la información.
-3. **Bloques de Código**: Usé ``` para resaltar la estructura del proyecto y los comandos.
-4. **Listas**: Usé listas con `-` para organizar la información de manera clara.
-5. **Negritas y Cursivas**: Resalté palabras clave con `**` y `*`.
-
----
-
-### **Cómo Usar el README.md**
-
-1. Copia el contenido anterior.
-2. Pégalo en un archivo llamado `README.md` dentro de la carpeta raíz de tu proyecto (`/proyecto-simulador-ventas`).
-3. Personaliza el contenido si es necesario (por ejemplo, cambia "tu-usuario" por tu nombre de usuario de GitHub).
-
----
-
-¡Y eso es todo! Ahora tu `README.md` es más bonito, profesional y fácil de leer. 😊 Si necesitas más ayuda, ¡no dudes en preguntar! 🚀
